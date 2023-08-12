@@ -1,0 +1,12 @@
+2023-07-29T09:26:04+00:00 CRITICAL Uncaught Error: Class "Custom_Message_Widget" not found in C:\xampp\htdocs\ascot\wp-content\themes\softwarePatronTheme\widgets\advertPatron.php:45
+Stack trace:
+#0 C:\xampp\htdocs\ascot\wp-content\themes\softwarePatronTheme\functions.php(67): require_once()
+#1 C:\xampp\htdocs\ascot\wp-settings.php(591): include('C:\\xampp\\htdocs...')
+#2 C:\xampp\htdocs\ascot\wp-config.php(96): require_once('C:\\xampp\\htdocs...')
+#3 C:\xampp\htdocs\ascot\wp-load.php(50): require_once('C:\\xampp\\htdocs...')
+#4 C:\xampp\htdocs\ascot\wp-admin\admin-ajax.php(22): require_once('C:\\xampp\\htdocs...')
+#5 {main}
+  thrown in C:\xampp\htdocs\ascot\wp-content\themes\softwarePatronTheme\widgets\advertPatron.php on line 45
+
+2023-07-29T09:42:35+00:00 CRITICAL Cannot redeclare advert_patron_widget_media_uploader() (previously declared in C:\xampp\htdocs\ascot\wp-content\themes\softwarePatronTheme\functions.php:71) in C:\xampp\htdocs\ascot\wp-content\themes\softwarePatronTheme\functions.php on line 103
+

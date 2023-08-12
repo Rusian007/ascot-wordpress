@@ -1,0 +1,109 @@
+/*
+Theme Name: Software Patron Theme
+Author: the software patron team
+
+Description: Customized theme for e-commerce by software patron
+Version: 1.0
+Requires at least: 5.0
+Tested up to: 5.4
+Requires PHP: 7.0
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned with others.
+*/
+
+
+
+  @import url('https://fonts.googleapis.com/css2?family=Noto+Sans:wght@100;300;400;500;700&display=swap');
+
+:root {
+  --primary-color: #dd7d00;
+  --font-family-lato: 'Noto Sans', sans-serif;
+  --font-family-poppins: 'Poppins'
+  ;
+}
+
+body{
+  background-color: rgb(247, 247, 247);
+}
+*{
+  font-family: var(--font-family-lato) ;
+}
+.color-primary {
+  color: var(--primary-color) !important;
+}
+
+.bg-color-primary-custom {
+  background-color: white !important;
+  color: var(--primary-color) !important;
+  border: 1px solid var(--primary-color);
+
+  border-radius: 20px !important;
+  transition: 0.3s;
+}
+.bg-color-primary-custom:hover{
+ 
+
+  background-color: #dd7d007e !important;
+  color: white !important;
+}
+.w-custom {
+  width: 45px !important;
+}
+
+.text {
+  font-size: 11px;
+}
+
+.bg {
+  width: 100%;
+  height: 80vh;
+  background-size: cover;
+  background-image: url('https://store.ascot.com.bd/wp-content/themes/softwarePatronTheme/images/bg.jpg');
+}
+
+.blurry-bg {
+  background-color: rgba(0, 0, 0, 0.61);
+  border-radius: 15px;
+  backdrop-filter: blur(5px);
+  -webkit-backdrop-filter: blur(5px);
+}
+.small{
+  display: inline;
+
+  font-size: 14px !important;
+  color: #dd7d00 !important;
+}
+.small:hover{
+  background-color: #dd7d00;
+  color: white !important;
+  transition: 0.5s;
+}
+.h-custom{
+  height: 165px !important;
+}
+.text-custom{
+  letter-spacing: 3px;
+}
+
+.height-custom-carousel{
+  height: 400px !important;
+}
+
+.rounded-custom{
+  border-radius: 15px !important;
+}
+
+.hover-custom:hover{
+  color: var(--primary-color);
+
+}
+
+.mb-remove-custom{
+  margin-bottom: -4px !important;
+}
+.custom-padding{
+  padding-right: 10px !important;
+}
